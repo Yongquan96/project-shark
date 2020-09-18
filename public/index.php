@@ -21,9 +21,6 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-location / {
-    try_files $uri $uri/ /index.php?$query_string;
-}
 
 require __DIR__.'/../vendor/autoload.php';
 
